@@ -81,3 +81,4 @@ To learn more about React Native, take a look at the following resources:
 # Buổi 2
 
 -- **buổi 2 chúng ta sẽ đi Thêm font tùy chỉnh vào ứng dụng React - Native **
+-- chúng ta cần hiểu cách thêm font tùy chỉnh để design khi mà khách hàng muốn design theo font khác 
