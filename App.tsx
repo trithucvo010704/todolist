@@ -1,13 +1,22 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, Button } from 'react-native'
 import React from 'react'
 
 const App = () => {
   return (
     <View style = {styles.container}>
-      <Text style = {styles.title} > My List </Text>
+      <Text
+        style = {{
+          color: '#fafafa',
+          fontSize : 18,
+        }}>
+          Welcome to my first app 
+      </Text>
+      <Text style = {styles.title}> ToDo List </Text> 
+      <Button title="HELLO" onPress ={() =>{}} />
+
     </View>
-  )
-}
+  );
+};
 
 export default App
 
