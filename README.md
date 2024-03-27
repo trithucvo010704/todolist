@@ -81,4 +81,10 @@ To learn more about React Native, take a look at the following resources:
 # Buổi 2
 
 -- **buổi 2 chúng ta sẽ đi Thêm font tùy chỉnh vào ứng dụng React - Native **
--- chúng ta cần hiểu cách thêm font tùy chỉnh để design khi mà khách hàng muốn design theo font khác 
+-- chúng ta cần hiểu cách thêm font tùy chỉnh để design khi mà khách hàng muốn design theo font khác
+
+# Buổi 3
+
+-- ta thược hiện được cách design trên figma và hiểu được children là lớp con của componets
+-- tạo thêm được 1 container global mình sử dụng các file khác và sau đó sẽ gọi vào file app.tsx
+-- file app.tsx sử dụng để điểu hướng còn các chức năng khác chịu
