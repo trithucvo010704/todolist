@@ -26,7 +26,7 @@ export const globalStyles = StyleSheet.create({
         backgroundColor:colors.gray ,
         borderRadius :12 , 
         paddingHorizontal : Platform.OS === 'ios' ?12 : 10 ,
-        paddingVertical : 10 ,
+        paddingVertical : Platform.OS === 'ios' ?12 : 10 ,
 
     }
     ,

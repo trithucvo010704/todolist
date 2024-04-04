@@ -88,3 +88,9 @@ To learn more about React Native, take a look at the following resources:
 -- ta thược hiện được cách design trên figma và hiểu được children là lớp con của componets
 -- tạo thêm được 1 container global mình sử dụng các file khác và sau đó sẽ gọi vào file app.tsx
 -- file app.tsx sử dụng để điểu hướng còn các chức năng khác chịu
+
+# Buổi 4
+
+-- thêm các copomnents xử lí khác nhau như một số có 1 rowcomponents , sectioncopomnent , text components and title components
+
+-- UI PHẦN HOME screen thành các section component chứa cách Ux riêng

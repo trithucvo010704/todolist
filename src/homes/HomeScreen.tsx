@@ -8,6 +8,7 @@ import Sectioncomponent from '../components/Sectioncomponent'
 import Textcomponent from '../components/Textcomponent'
 import Titlecomponent from '../components/Titlecomponent'
 import { colors } from '../constants/colors'
+import CardComponent from '../components/CardComponent'
 
 const HomeScreen = () => {
   return ( 
@@ -34,7 +35,22 @@ const HomeScreen = () => {
           <Text> S</Text>
         </Rowcomponents>
       </Sectioncomponent>
-        
+
+
+      <Sectioncomponent>
+        <CardComponent>
+          <Rowcomponents>
+            <View style = {{flex: 1 }}>
+              <Titlecomponent text="Task Progess"/>
+              <Textcomponent text="30/40 task done"/> 
+              <Textcomponent text="Tag"/>
+            </View>
+            <View>
+              <Textcomponent text="Criclechar"/> 
+            </View>
+          </Rowcomponents>
+        </CardComponent> 
+      </Sectioncomponent>  
     </Container>
 
   )
