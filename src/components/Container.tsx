@@ -12,7 +12,9 @@ const Container = (props : Props) => {
     const{title ,back,right,children} = props ;
   return (
     <ScrollView style = {[globalStyles.container]}>
-    {props.children}
+    {
+    props.children}
+
     </ScrollView>
       
   )

@@ -10,6 +10,9 @@ const App = () => {
     backgroundColor={'transparent'}
     />
     <HomeScreen/>
+    <View>
+      
+    </View>
    </>
   )
 }
